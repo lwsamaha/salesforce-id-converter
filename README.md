@@ -8,7 +8,7 @@ Function to convert a short (15 character) Salesforce ID into a long (18 charact
 from sfid import to_long_id
 short_id = '001A0000006Vm9r'
 long_id = to_long_id(short_id)
-self.assertEquals(short_id + 'IAC', to_long_id(short_id)), long_id)
+self.assertEquals(short_id + 'IAC', to_long_id(short_id))
 ~~~
 
 ## More
